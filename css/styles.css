@@ -1,0 +1,82 @@
+body{
+    background-image: url(/img/medidasbien.jpg);
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+body ul{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+
+}
+.menu{
+    list-style: none;
+    padding: 0%;
+    background-color: green;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: violet;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 150px;
+    text-align: center;
+}
+main h2{
+    text-align: center;
+    background-color: rgb(54, 18, 75);
+    color: rgb(12, 8, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Mancity{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 550px;
+    border-radius: 25px;
+}
+.Chelsea{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 550px;
+    border-radius: 25px;
+}
+.Arsenal{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 550px;
+    border-radius: 25px;
+}
+.United{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 550px;
+    border-radius: 25px;
+}
+.Newcastle{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 550px;
+    border-radius: 25px;
+}
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    border-radius: 25%;
+}
