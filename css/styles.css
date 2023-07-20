@@ -1,182 +1,209 @@
-body{
-    background-image: url(/img/medidasbien.jpg);
-    background-size: auto;
-    background-position: center;
-    background-attachment: fixed;
+body {
+  background-image: url(/img/medidasbien.jpg);
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
 }
-body ul{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: blueviolet;
+body ul {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blueviolet;
+}
 
+.menu {
+  list-style: none;
+  padding: 0%;
+  background-color: rgb(49, 13, 73);
+  width: 90%;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.menu{
-    list-style: none;
-    padding: 0%;
-    background-color: rgb(49, 13, 73);
-    width: 90%;
-    max-width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+.menu li {
+  display: inline-block;
+  text-align: center;
 }
-.menu li a{
-    text-decoration: none;
-    color: violet;
-    padding: 20px;
-    display: block;
+.menu li a {
+  text-decoration: none;
+  color: violet;
+  padding: 20px;
+  display: block;
 }
-.menu li{
-    display: inline-block;
-    text-align: center;
-}
-h1{
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    size: 200px;
-    text-align: center;
-}
-main h2{
-    text-align: center;
-    background-color: rgb(54, 18, 75);
-    color: rgb(12, 8, 8);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h3{
-    color: black;
-    background-color: rgb(78, 13, 70);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    size: 350px;
-}
-footer button{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.Mancity{
-    display: flex;
-    justify-content: center;
-    height: 30%;
-    width: 55%;
-    border-radius: 25px;
-}
-.Chelsea{
-    display: flex;
-    justify-content: center;
-    height: 30%;
-    width: 55%;
-    border-radius: 25px;
-}
-.Arsenal{
-    display: flex;
-    justify-content: center;
-    height: 30%;
-    width: 55%;
-    border-radius: 25px;
-}
-.United{
-    display: flex;
-    justify-content: center;
-    height: 30%;
-    width: 55%;
-    border-radius: 25px;
-}
-.Liverpool{
-    display: flex;
-    justify-content: center;
-    height: 30%;
-    width: 55%;
-    border-radius: 25px;
-}
-.Newcastle{
-    display: flex;
-    justify-content: center;
-    height: 30%;
-    width: 55%;
-    border-radius: 25px;
-}
-p{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: gray;
-    border-radius: 25%;
-}
-.tabla{
-    background-image: url(/img/fondotabla.avif);
-}
-table{
-    width: 100%;
-    margin-top: 20px;
-    color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+main h1 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  size: 200px;
+  text-align: center;
 }
-.encabezado{
-background-color: rgb(61, 0, 61);
+
+h2 {
+  text-align: center;
+  background-color: rgb(54, 18, 75);
+  color: rgb(12, 8, 8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-th{
-    padding: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+h3 {
+  color: black;
+  background-color: rgb(78, 13, 70);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  size: 350px;
 }
-.equipos{
-    color: black;
-    background-color: rgb(83, 37, 87);
+
+.Mancity {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 55%;
+  border-radius: 25px;
 }
-.caja{
-    border: 1px solid black;
-    height: 100px;
-    background-color: rgb(52, 129, 155);
-    text-align: center;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.Chelsea {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 55%;
+  border-radius: 25px;
 }
+
+.Arsenal {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 55%;
+  border-radius: 25px;
+}
+
+.United {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 55%;
+  border-radius: 25px;
+}
+
+.Liverpool {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 55%;
+  border-radius: 25px;
+}
+
+.Newcastle {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 55%;
+  border-radius: 25px;
+}
+
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gray;
+  border-radius: 25%;
+}
+
+.tabla {
+  background-image: url(/img/fondotabla.avif);
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.encabezado {
+  background-color: rgb(61, 0, 61);
+}
+
+th {
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.equipos {
+  color: black;
+  background-color: rgb(83, 37, 87);
+}
+
+.caja {
+  border: 1px solid black;
+  height: 100px;
+  background-color: rgb(52, 129, 155);
+  text-align: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .caja img {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
-    justify-items: center;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  justify-items: center;
 }
-.pochelsea{
-    height: 200px;
-    width: 300px;
+
+.pochelsea {
+  height: 200px;
+  width: 300px;
 }
-.post{
-    background-color: rgb(139, 40, 40);
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+
+.post {
+  background-color: rgb(139, 40, 40);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.post h1{
-    margin: 25px 10px 15px;
+
+.post h1 {
+  margin: 25px 10px 15px;
 }
-.noticia{
-    max-width: 46%;
-    background: #f1f1f1;
-    overflow: hidden;
-    margin: 20px 10px;
-    border: none;
-    box-shadow: 30px 30px 47px;
-    float: left;
-    text-align: center;
+
+.noticia {
+  max-width: 46%;
+  background: #f1f1f1;
+  overflow: hidden;
+  margin: 20px 10px;
+  border: none;
+  box-shadow: 30px 30px 47px;
+  float: left;
+  text-align: center;
 }
-.post h2{
-    padding: 10px;
+
+.post h2 {
+  padding: 10px;
 }
-.post p{
-    margin-bottom: 10px;
-    text-align: justify;
-    padding: 10px;
+
+.post p {
+  margin-bottom: 10px;
+  text-align: justify;
+  padding: 10px;
 }
+
 @media screen and (576px) {
-.post {width: 100%;
-}
-.noticia{
+  .post {
     width: 100%;
-}
-}
-.row{
+  }
+  .noticia {
     width: 100%;
+  }
 }
+footer button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
