@@ -104,8 +104,9 @@ h3 {
 p {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: gray;
-  border-radius: 25%;
+  background-color: rgb(13, 104, 84);
+  border-radius: 10%;
+  text-size-adjust: auto;
 }
 
 .tabla {
@@ -207,3 +208,74 @@ footer button {
 }
 
 /*# sourceMappingURL=styles.css.map */
+.ajuste-imagen {
+  object-fit: fill;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section.post {
+  max-width: 1100px;
+  margin: 0 auto;
+
+}
+.tituloDiferente {
+  text-align: center;
+}
+
+.imagen-post {
+  height: 350px;
+  
+}
+.ajuste-imagen {
+  width: 200px;
+}
+
+.limpiar {
+  content: "";
+  display: block;
+  clear: both;
+}
+.imagen-1 {
+  background-image: url("../img/rashfordnoticias.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagen-2 {
+  background-image: url("../img/grealishmedidasbien.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagen-3 {
+  background-image: url("../img/mahreznoticias.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.noticia-3 {
+  width: 100%;
+  border-radius: initial;
+  display: inline;
+  border: 1px solid #da0505;
+}
+@media (min-width:768px) {
+  .noticia-3 {
+      width: 33%;
+      float: left;
+      display: inline;
+      border: 1px solid #da0505;
+    }
+  
+}
